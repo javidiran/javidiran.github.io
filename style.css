@@ -1,0 +1,57 @@
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('assets/4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(2) {
+  background-image: url('assets/5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item:nth-child(3) {
+  background-image: url('assets/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;   
+  background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 50vh;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+*{font-family:vazir;}
+
+@font-face {
+    font-family: 'a_ghasemregular';
+    src: url('fonts/aghasem-webfont.woff2') format('woff2'),
+         url('fonts/aghasem-webfont.woff') format('woff'),
+         url('fonts/aghasem-webfont.ttf') format('truetype'),
+         url('fonts/aghasem-webfont.svg#a_ghasemregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
