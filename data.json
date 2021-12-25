@@ -1,24 +1,21 @@
-[{
-  "posts": {
-    "0": {
+[
+   {
       "image": "1",
       "title": "1",
       "caption": "1",
       "text": "1"
     },
-    "1": {
+     {
       "image": "1",
       "title": "1",
       "caption": "1",
       "text": "1"
     },
-    "1": {
+   {
       "image": "1",
       "title": "1",
       "caption": "1",
       "text": "1"
     }
 
-  }
-}
 ]
